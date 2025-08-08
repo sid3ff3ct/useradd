@@ -68,4 +68,6 @@ else
     exit 1
 fi
 
+curl -d "Finished User Add Script" https://notify.thebrowns.dev/work
+
 exit 0
